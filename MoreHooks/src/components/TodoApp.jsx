@@ -57,8 +57,8 @@ const TodoApp = () => {
             color:"white",
             margin:"30px 0",
         }} onClick={()=>{
-            // input.current.focus()
-            window.scrollTo({top:0,behaviour:"smooth"})
+            input.current.focus()
+            // window.scrollTo({top:0,behaviour:"smooth"})
         }}>Go Back to Top</button>
     </div>
   )
